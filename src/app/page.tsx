@@ -18,6 +18,7 @@
 // }
 
 'use client';
+import { css } from "@emotion/react";
 import { Button } from "@moneyforward/mfx_biz_react_components";
 
 
@@ -27,7 +28,7 @@ export default function Home() {
       {
         // does not work
       }
-      <Button css={{backgroundColor: 'red'}}>Hello world</Button>
+      <Button css={css({backgroundColor:'red'})}>Hello world</Button>
     </>
   );
 }
